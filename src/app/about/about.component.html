@@ -1,0 +1,35 @@
+<p>
+    <mat-toolbar>
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span style="cursor:pointer" routerLink ="/about" routerLinkActive ="active" >MIT-World Peace University</span>
+  
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  </p>
+
+
+ <div class="example-button-row bg-image ">
+     
+        <a mat-raised-button routerLink ="/achieve">Achievements</a>
+      <a mat-raised-button routerLink ="/placement" routerLinkActive ="active">Placements</a>
+      <a mat-raised-button routerLink ="/department">Departments</a>
+      <a mat-raised-button href="https://www.google.com/" target="_blank">Extra-curricular Activities</a>
+      <a mat-raised-button routerLink = "/courses" >Courses Offered</a>
+      <a mat-raised-button href="https://www.google.com/" target="_blank">Fees</a>
+      <a mat-raised-button routerLink ="/hostel">Hostel Facilities</a>
+      <a mat-raised-button routerLink ="/about">About</a>
+   
+      <a mat-raised-button href="https://www.google.com/" target="_blank">Reviews</a>
+  
+   
+    </div>
+    <router-outlet></router-outlet>
+  
